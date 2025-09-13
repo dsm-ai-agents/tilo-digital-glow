@@ -10,19 +10,20 @@ const PricingSection = () => {
       badge: "Most Popular",
       badgeColor: "bg-accent text-accent-foreground",
       icon: Star,
-      title: "Free AI Consultation",
-      price: "₹0",
+      title: "Free AI Agent Masterclass",
+      price: "₹99",
       originalPrice: null,
-      description: "Still figuring out where to start? Get expert guidance on your AI journey - no fluff, no jargon.",
+      description: "Still watching YouTube tutorials? In 90 mins, build your first AI Agent — no fluff, no jargon.",
       features: [
-        "30-minute strategy session",
-        "AI readiness assessment", 
-        "Custom roadmap creation",
-        "Technology recommendations"
+        "Live session with expert guidance",
+        "No technical skills required", 
+        "3 free agent templates included",
+        "Q&A session with community"
       ],
-      buttonText: "Book Free Session",
+      buttonText: "Reserve Spot",
       buttonVariant: "default" as const,
-      color: "accent"
+      color: "accent",
+      link: "https://learn.datasciencemasterminds.com/web/checkout/6819d10a6678a78a07d37647"
     },
     {
       level: "Level 1", 
@@ -30,58 +31,59 @@ const PricingSection = () => {
       badgeColor: "bg-primary/20 text-primary",
       icon: Zap,
       title: "AI Agent Kickstarter",
-      price: "₹25,000",
-      originalPrice: "₹40,000",
+      price: "₹399",
+      originalPrice: null,
       description: "If you're not automating at least 1 task with AI — you're already behind.",
       features: [
-        "3 custom AI agents developed",
-        "Step-by-step implementation guide", 
-        "Premium automation templates",
-        "2 weeks of technical support"
+        "5 ready-made AI agents",
+        "Step-by-step video guide", 
+        "Premium prompt pack",
+        "1-week email support"
       ],
-      buttonText: "Start Building Now",
+      buttonText: "Buy & Build Now",
       buttonVariant: "secondary" as const,
-      color: "primary"
+      color: "primary",
+      link: "https://learn.datasciencemasterminds.com/web/checkout/6819d10a6678a78a07d37647"
     },
     {
       level: "Level 2",
       badge: "Best Value", 
       badgeColor: "bg-green-500/20 text-green-400",
       icon: Rocket,
-      title: "AI Transformation Program",
-      price: "₹75,000",
-      originalPrice: "₹1,20,000",
-      description: "Become the person who replaces repetitive work with intelligent automations in 30 days.",
+      title: "AI Agent Accelerator",
+      price: "₹15,000",
+      originalPrice: null,
+      description: "Become the person who replaces repetitive work with automations in 21 days.",
       features: [
         "Weekly live mentorship sessions",
-        "5+ custom AI solutions",
         "Private community access",
-        "Certificate of completion",
-        "Ongoing support & updates"
+        "Peer support and networking",
+        "Certificate of completion"
       ],
-      buttonText: "Join Program",
+      buttonText: "Join Accelerator",
       buttonVariant: "default" as const,
-      color: "accent"
+      color: "accent",
+      link: "https://learn.datasciencemasterminds.com/web/checkout/6819d10a6678a78a07d37647"
     },
     {
       level: "Level 3",
       badge: "Elite",
       badgeColor: "bg-gradient-primary text-white",
       icon: Crown,
-      title: "Enterprise AI Builder",
-      price: "Custom",
+      title: "AI Agent Product Builder Cohort",
+      price: "Premium",
       originalPrice: null,
-      description: "No limits. Build enterprise-grade AI systems that generate measurable ROI.",
+      description: "No VC? No problem. Ship monetizable AI-powered tools and start earning.",
       features: [
-        "Complete AI infrastructure setup",
-        "Unlimited custom agents & tools",
-        "Advanced integrations & APIs",
-        "1-on-1 founder mentorship",
-        "Revenue sharing opportunities"
+        "Master N8N, LangChain, Cursor, Supabase",
+        "Deploy with integrated payments",
+        "Ship 3 real monetizable tools",
+        "1-on-1 founder mentorship"
       ],
-      buttonText: "Apply for Elite",
+      buttonText: "Apply for Builder",
       buttonVariant: "secondary" as const,
-      color: "primary"
+      color: "primary",
+      link: "https://learn.datasciencemasterminds.com/web/checkout/6819d10a6678a78a07d37647"
     }
   ];
 
@@ -153,7 +155,7 @@ const PricingSection = () => {
 
                 {/* CTA Button */}
                 <a 
-                  href="https://learn.datasciencemasterminds.com/web/checkout/6819d10a6678a78a07d37647"
+                  href={tier.link}
                   target="_blank"
                   rel="noopener noreferrer"
                   className="w-full block"

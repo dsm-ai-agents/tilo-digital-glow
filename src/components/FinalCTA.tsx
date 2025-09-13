@@ -4,28 +4,32 @@ import { Button } from '@/components/ui/button';
 const FinalCTA = () => {
   const ctaButtons = [
     {
-      text: "Start with ₹0",
-      subtext: "Free Consultation",
+      text: "Start with ₹99",
+      subtext: "Free AI Agent Masterclass",
       gradient: "bg-gradient-to-r from-yellow-400 to-orange-500",
-      hoverGradient: "hover:from-yellow-300 hover:to-orange-400"
+      hoverGradient: "hover:from-yellow-300 hover:to-orange-400",
+      link: "https://learn.datasciencemasterminds.com/web/checkout/6819d10a6678a78a07d37647"
     },
     {
-      text: "Quick Start - ₹25,000", 
-      subtext: "AI Kickstarter",
+      text: "Quick Start - ₹399", 
+      subtext: "AI Agent Kickstarter",
       gradient: "bg-gradient-to-r from-green-400 to-teal-500",
-      hoverGradient: "hover:from-green-300 hover:to-teal-400"
+      hoverGradient: "hover:from-green-300 hover:to-teal-400",
+      link: "https://learn.datasciencemasterminds.com/web/checkout/6819d10a6678a78a07d37647"
     },
     {
       text: "Join Accelerator",
-      subtext: "₹75,000 Program", 
+      subtext: "₹15,000 Program", 
       gradient: "bg-gradient-to-r from-blue-500 to-purple-600",
-      hoverGradient: "hover:from-blue-400 hover:to-purple-500"
+      hoverGradient: "hover:from-blue-400 hover:to-purple-500",
+      link: "https://learn.datasciencemasterminds.com/web/checkout/6819d10a6678a78a07d37647"
     },
     {
       text: "Go Elite",
-      subtext: "Custom Enterprise",
+      subtext: "Premium Builder Cohort",
       gradient: "bg-gradient-to-r from-purple-600 to-pink-600",
-      hoverGradient: "hover:from-purple-500 hover:to-pink-500"
+      hoverGradient: "hover:from-purple-500 hover:to-pink-500",
+      link: "https://learn.datasciencemasterminds.com/web/checkout/6819d10a6678a78a07d37647"
     }
   ];
 
@@ -47,7 +51,7 @@ const FinalCTA = () => {
           {ctaButtons.map((button, index) => (
             <a
               key={index}
-              href="https://learn.datasciencemasterminds.com/web/checkout/6819d10a6678a78a07d37647"
+              href={button.link}
               target="_blank"
               rel="noopener noreferrer"
               className="block"
