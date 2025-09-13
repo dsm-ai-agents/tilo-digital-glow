@@ -13,12 +13,14 @@ import ContactSection from "@/components/ContactSection";
 import FinalCTA from "@/components/FinalCTA";
 import Footer from "@/components/Footer";
 import MouseTrailEffect from "@/components/MouseTrailEffect";
+import MatrixWorldMap from "@/components/MatrixWorldMap";
 
 
 const Index = () => {
   return (
     <div className="min-h-screen relative">
       <MouseTrailEffect />
+      <MatrixWorldMap />
       <Header />
       <main>
         <HeroSection />
