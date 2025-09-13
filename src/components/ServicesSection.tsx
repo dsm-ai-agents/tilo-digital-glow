@@ -6,6 +6,20 @@ const ServicesSection = () => {
   const services = [
     {
       icon: Bot,
+      title: "Custom AI Agents",
+      description: "Bespoke intelligent agents tailored to your specific business needs, capable of complex reasoning, decision-making, and autonomous task execution across multiple domains.",
+      features: ["Custom Logic Development", "Multi-domain Expertise", "Autonomous Decision Making", "Seamless Integration"],
+      color: "primary"
+    },
+    {
+      icon: Bot,
+      title: "Voice Agents", 
+      description: "Advanced voice-powered AI assistants with natural speech recognition, real-time conversation capabilities, and intelligent voice command processing for hands-free automation.",
+      features: ["Natural Speech Recognition", "Real-time Processing", "Multi-language Support", "Voice Command Automation"],
+      color: "accent"
+    },
+    {
+      icon: Bot,
       title: "AI Chatbots & Virtual Assistants",
       description: "Intelligent conversational AI that understands context, learns from interactions, and provides 24/7 customer support with human-like responses.",
       features: ["Natural Language Processing", "Multi-platform Integration", "Continuous Learning", "Analytics & Insights"],

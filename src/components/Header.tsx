@@ -38,10 +38,22 @@ const Header = () => {
               About
             </button>
             <button
+              onClick={() => scrollToSection('meet-tilottam')}
+              className="text-foreground/80 hover:text-primary transition-colors duration-300"
+            >
+              Meet Tilottam
+            </button>
+            <button
               onClick={() => scrollToSection('services')}
               className="text-foreground/80 hover:text-primary transition-colors duration-300"
             >
               Services
+            </button>
+            <button
+              onClick={() => scrollToSection('code-of-honor')}
+              className="text-foreground/80 hover:text-primary transition-colors duration-300"
+            >
+              Code of Honor
             </button>
             <button
               onClick={() => scrollToSection('training')}
@@ -99,10 +111,22 @@ const Header = () => {
                 About
               </button>
               <button
+                onClick={() => scrollToSection('meet-tilottam')}
+                className="text-left text-foreground/80 hover:text-primary transition-colors duration-300"
+              >
+                Meet Tilottam
+              </button>
+              <button
                 onClick={() => scrollToSection('services')}
                 className="text-left text-foreground/80 hover:text-primary transition-colors duration-300"
               >
                 Services
+              </button>
+              <button
+                onClick={() => scrollToSection('code-of-honor')}
+                className="text-left text-foreground/80 hover:text-primary transition-colors duration-300"
+              >
+                Code of Honor
               </button>
               <button
                 onClick={() => scrollToSection('training')}
