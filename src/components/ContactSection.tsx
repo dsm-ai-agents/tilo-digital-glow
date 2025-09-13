@@ -77,7 +77,11 @@ const ContactSection = () => {
                 </CardTitle>
               </CardHeader>
               <CardContent className="space-y-4">
-                <Button className="w-full hero-button justify-start" size="lg">
+                <Button 
+                  className="w-full hero-button justify-start" 
+                  size="lg"
+                  onClick={() => window.open('https://calendly.com/app/scheduling/meeting_types/user/me', '_blank')}
+                >
                   <span className="flex items-center gap-2">
                     <Calendar className="h-5 w-5" />
                     Schedule a Call

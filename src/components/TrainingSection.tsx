@@ -204,6 +204,7 @@ const TrainingSection = () => {
                 <Button 
                   variant="secondary" 
                   className="text-lg px-8 py-4 glass-card hover:glow-accent"
+                  onClick={() => window.open('https://calendly.com/app/scheduling/meeting_types/user/me', '_blank')}
                 >
                   Schedule Consultation
                 </Button>

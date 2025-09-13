@@ -138,7 +138,10 @@ const ServicesSection = () => {
                 and drive unprecedented growth for your organization.
               </p>
               <div className="flex flex-col sm:flex-row gap-4 justify-center">
-                <Button className="hero-button text-lg px-8 py-4">
+                <Button 
+                  className="hero-button text-lg px-8 py-4"
+                  onClick={() => window.open('https://calendly.com/app/scheduling/meeting_types/user/me', '_blank')}
+                >
                   <span>Schedule a Consultation</span>
                 </Button>
                 <Button 

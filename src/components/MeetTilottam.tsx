@@ -105,7 +105,10 @@ const MeetTilottam = () => {
               ))}
             </div>
 
-            <Button className="hero-button">
+            <Button 
+              className="hero-button"
+              onClick={() => window.open('https://calendly.com/app/scheduling/meeting_types/user/me', '_blank')}
+            >
               <span>Schedule a Meeting</span>
             </Button>
           </div>
