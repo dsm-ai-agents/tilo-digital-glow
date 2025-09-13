@@ -152,12 +152,19 @@ const PricingSection = () => {
                 </div>
 
                 {/* CTA Button */}
-                <Button 
-                  variant={tier.buttonVariant}
-                  className={`w-full ${tier.buttonVariant === 'default' ? 'hero-button' : 'glass-card hover:glow-accent'}`}
+                <a 
+                  href="https://learn.datasciencemasterminds.com/web/checkout/6819d10a6678a78a07d37647"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="w-full block"
                 >
-                  <span>{tier.buttonText}</span>
-                </Button>
+                  <Button 
+                    variant={tier.buttonVariant}
+                    className={`w-full ${tier.buttonVariant === 'default' ? 'hero-button' : 'glass-card hover:glow-accent'}`}
+                  >
+                    <span>{tier.buttonText}</span>
+                  </Button>
+                </a>
               </CardContent>
             </Card>
           ))}
@@ -175,15 +182,27 @@ const PricingSection = () => {
                 Every package includes lifetime access to updates and our exclusive community.
               </p>
               <div className="flex flex-col sm:flex-row gap-4 justify-center">
-                <Button className="hero-button text-lg px-8 py-4">
-                  <span>Start with Free Consultation</span>
-                </Button>
-                <Button 
-                  variant="secondary" 
-                  className="text-lg px-8 py-4 glass-card hover:glow-accent"
+                <a 
+                  href="https://learn.datasciencemasterminds.com/web/checkout/6819d10a6678a78a07d37647"
+                  target="_blank"
+                  rel="noopener noreferrer"
                 >
-                  View Success Stories
-                </Button>
+                  <Button className="hero-button text-lg px-8 py-4">
+                    <span>Start with Free Consultation</span>
+                  </Button>
+                </a>
+                <a 
+                  href="https://learn.datasciencemasterminds.com/web/checkout/6819d10a6678a78a07d37647"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
+                  <Button 
+                    variant="secondary" 
+                    className="text-lg px-8 py-4 glass-card hover:glow-accent"
+                  >
+                    View Success Stories
+                  </Button>
+                </a>
               </div>
             </CardContent>
           </Card>
