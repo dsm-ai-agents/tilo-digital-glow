@@ -10,6 +10,7 @@ import CodeOfHonor from "@/components/CodeOfHonor";
 import TrainingSection from "@/components/TrainingSection";
 import TestimonialsSection from "@/components/TestimonialsSection";
 import ContactSection from "@/components/ContactSection";
+import FinalCTA from "@/components/FinalCTA";
 import Footer from "@/components/Footer";
 
 const Index = () => {
@@ -28,6 +29,7 @@ const Index = () => {
         <TrainingSection />
         <TestimonialsSection />
         <ContactSection />
+        <FinalCTA />
       </main>
       <Footer />
     </div>
