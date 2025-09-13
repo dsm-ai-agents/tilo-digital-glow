@@ -12,11 +12,13 @@ import TestimonialsSection from "@/components/TestimonialsSection";
 import ContactSection from "@/components/ContactSection";
 import FinalCTA from "@/components/FinalCTA";
 import Footer from "@/components/Footer";
+import MouseTrailEffect from "@/components/MouseTrailEffect";
 
 
 const Index = () => {
   return (
     <div className="min-h-screen relative">
+      <MouseTrailEffect />
       <Header />
       <main>
         <HeroSection />
