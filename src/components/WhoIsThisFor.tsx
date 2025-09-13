@@ -30,7 +30,7 @@ const WhoIsThisFor = () => {
   ];
 
   return (
-    <section className="py-20 relative">
+    <section id="who-is-this-for" className="py-20 relative">
       <div className="container mx-auto px-6">
         {/* Section Header */}
         <div className="text-center mb-16 animate-fade-in">
