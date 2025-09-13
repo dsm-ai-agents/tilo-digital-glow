@@ -44,16 +44,22 @@ const Header = () => {
               Meet Tilottam
             </button>
             <button
+              onClick={() => scrollToSection('who-is-this-for')}
+              className="text-foreground/80 hover:text-primary transition-colors duration-300"
+            >
+              Who Is This For
+            </button>
+            <button
               onClick={() => scrollToSection('services')}
               className="text-foreground/80 hover:text-primary transition-colors duration-300"
             >
               Services
             </button>
             <button
-              onClick={() => scrollToSection('code-of-honor')}
+              onClick={() => scrollToSection('pricing')}
               className="text-foreground/80 hover:text-primary transition-colors duration-300"
             >
-              Code of Honor
+              Pricing
             </button>
             <button
               onClick={() => scrollToSection('training')}
@@ -117,10 +123,22 @@ const Header = () => {
                 Meet Tilottam
               </button>
               <button
+                onClick={() => scrollToSection('who-is-this-for')}
+                className="text-left text-foreground/80 hover:text-primary transition-colors duration-300"
+              >
+                Who Is This For
+              </button>
+              <button
                 onClick={() => scrollToSection('services')}
                 className="text-left text-foreground/80 hover:text-primary transition-colors duration-300"
               >
                 Services
+              </button>
+              <button
+                onClick={() => scrollToSection('pricing')}
+                className="text-left text-foreground/80 hover:text-primary transition-colors duration-300"
+              >
+                Pricing
               </button>
               <button
                 onClick={() => scrollToSection('code-of-honor')}
