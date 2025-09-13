@@ -45,25 +45,32 @@ const FinalCTA = () => {
         {/* CTA Buttons */}
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-6 max-w-6xl mx-auto">
           {ctaButtons.map((button, index) => (
-            <Button
+            <a
               key={index}
-              className={`
-                h-auto p-6 text-white font-semibold rounded-2xl
-                ${button.gradient} ${button.hoverGradient}
-                transition-all duration-300 transform hover:scale-105 hover:shadow-2xl
-                flex flex-col items-center justify-center text-center
-                border-0 relative overflow-hidden group
-              `}
+              href="https://learn.datasciencemasterminds.com/web/checkout/6819d10a6678a78a07d37647"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="block"
             >
-              <div className="relative z-10">
-                <div className="text-lg font-bold mb-2">{button.text}</div>
-                <div className="text-sm opacity-90 mb-3">{button.subtext}</div>
-                <ArrowRight className="w-5 h-5 mx-auto group-hover:translate-x-1 transition-transform duration-300" />
-              </div>
-              
-              {/* Subtle shine effect */}
-              <div className="absolute inset-0 bg-gradient-to-r from-transparent via-white/10 to-transparent -translate-x-full group-hover:translate-x-full transition-transform duration-700"></div>
-            </Button>
+              <Button
+                className={`
+                  h-auto p-6 text-white font-semibold rounded-2xl w-full
+                  ${button.gradient} ${button.hoverGradient}
+                  transition-all duration-300 transform hover:scale-105 hover:shadow-2xl
+                  flex flex-col items-center justify-center text-center
+                  border-0 relative overflow-hidden group
+                `}
+              >
+                <div className="relative z-10">
+                  <div className="text-lg font-bold mb-2">{button.text}</div>
+                  <div className="text-sm opacity-90 mb-3">{button.subtext}</div>
+                  <ArrowRight className="w-5 h-5 mx-auto group-hover:translate-x-1 transition-transform duration-300" />
+                </div>
+                
+                {/* Subtle shine effect */}
+                <div className="absolute inset-0 bg-gradient-to-r from-transparent via-white/10 to-transparent -translate-x-full group-hover:translate-x-full transition-transform duration-700"></div>
+              </Button>
+            </a>
           ))}
         </div>
 
