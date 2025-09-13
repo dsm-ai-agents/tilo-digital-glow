@@ -12,12 +12,11 @@ import TestimonialsSection from "@/components/TestimonialsSection";
 import ContactSection from "@/components/ContactSection";
 import FinalCTA from "@/components/FinalCTA";
 import Footer from "@/components/Footer";
-import AIAgentEffects from "@/components/AIAgentEffects";
+
 
 const Index = () => {
   return (
     <div className="min-h-screen relative">
-      <AIAgentEffects />
       <Header />
       <main>
         <HeroSection />
