@@ -9,7 +9,7 @@ const ContactSection = () => {
     {
       icon: Mail,
       title: "Email",
-      value: "hello@tilottam.ai",
+      value: "hello@tilottams.ai",
       description: "Drop me a line anytime"
     },
     {

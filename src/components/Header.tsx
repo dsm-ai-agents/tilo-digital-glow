@@ -20,7 +20,7 @@ const Header = () => {
               <Brain className="h-8 w-8 text-primary animate-pulse" />
               <Sparkles className="absolute -top-1 -right-1 h-4 w-4 text-accent animate-pulse" />
             </div>
-            <span className="text-xl font-bold gradient-text">Tilottam.ai</span>
+            <span className="text-xl font-bold gradient-text">Tilottams.AI</span>
           </div>
 
           {/* Desktop Navigation */}

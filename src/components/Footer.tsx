@@ -19,7 +19,7 @@ const Footer = () => {
                 <Brain className="h-8 w-8 text-primary animate-pulse" />
                 <Sparkles className="absolute -top-1 -right-1 h-4 w-4 text-accent animate-pulse" />
               </div>
-              <span className="text-xl font-bold gradient-text">Tilottam.ai</span>
+              <span className="text-xl font-bold gradient-text">Tilottams.AI</span>
             </div>
             <p className="text-muted-foreground mb-6 max-w-md">
               Transforming businesses through intelligent automation and cutting-edge AI solutions. 
@@ -89,7 +89,7 @@ const Footer = () => {
         <div className="pt-8 border-t border-white/10">
           <div className="flex flex-col md:flex-row justify-between items-center gap-4">
             <p className="text-sm text-muted-foreground">
-              © {currentYear} Tilottam.ai. All rights reserved. Built with passion for AI innovation.
+              © {currentYear} Tilottams.AI. All rights reserved. Built with passion for AI innovation.
             </p>
             <div className="flex gap-6 text-sm">
               <a href="#" className="text-muted-foreground hover:text-primary transition-colors">

@@ -84,7 +84,7 @@ const HeroSection = () => {
               <div className="w-80 h-80 rounded-full overflow-hidden glass-card glow-primary">
                 <img 
                   src={profileImage} 
-                  alt="Tilottam - AI Expert" 
+                  alt="Tilottams - AI Expert" 
                   className="w-full h-full object-cover"
                 />
               </div>
