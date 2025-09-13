@@ -44,6 +44,18 @@ const Header = () => {
               Services
             </button>
             <button
+              onClick={() => scrollToSection('training')}
+              className="text-foreground/80 hover:text-primary transition-colors duration-300"
+            >
+              Training
+            </button>
+            <button
+              onClick={() => scrollToSection('testimonials')}
+              className="text-foreground/80 hover:text-primary transition-colors duration-300"
+            >
+              Success Stories
+            </button>
+            <button
               onClick={() => scrollToSection('contact')}
               className="text-foreground/80 hover:text-primary transition-colors duration-300"
             >
@@ -91,6 +103,18 @@ const Header = () => {
                 className="text-left text-foreground/80 hover:text-primary transition-colors duration-300"
               >
                 Services
+              </button>
+              <button
+                onClick={() => scrollToSection('training')}
+                className="text-left text-foreground/80 hover:text-primary transition-colors duration-300"
+              >
+                Training
+              </button>
+              <button
+                onClick={() => scrollToSection('testimonials')}
+                className="text-left text-foreground/80 hover:text-primary transition-colors duration-300"
+              >
+                Success Stories
               </button>
               <button
                 onClick={() => scrollToSection('contact')}
